@@ -1,0 +1,48 @@
+.active-link {
+    background-color:#FEE2E2;
+    color: #ffffff;
+  }
+  
+  .active-link:hover {
+    background-color: #758beaf6;
+  }
+  .max-w-xs {
+    width: 100%;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .max-w-xs {
+      width: initial; 
+      max-width: 300px; 
+    }
+  }
+  
+  /* Active link style */
+  .active-link {
+    background-color: #7b7df3fa; 
+    color: #fff; 
+  }
+  .loading-container {
+    position: fixed;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(0, -50%);
+    background-color: #9c9ca5fa; 
+    width: 60%; 
+    padding: 5px; 
+    border-radius: 10px; 
+    z-index: 999;
+  }
+  .popup {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 10px; 
+  }
+  

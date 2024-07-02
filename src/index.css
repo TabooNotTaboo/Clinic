@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.home-testimonials {
+  z-index: -9;
+  position: absolute;
+  width: 69%;
+  min-height: 123%;
+  background-color: #f3f5ff;
+  border-radius: 30px;
+  transform: skew(0deg, 3deg) translateY(-50%);
+  top: 50%;
+}
+.reveal-onshow {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.reveal-onshow.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+:root {
+  --neutral-100: white;
+  --neutral-200: #f3f5ff;
+  --neutral-300: #eff0f6;
+  --neutral-400: #d9dbe9;
+  --neutral-500: #b1b3cb;
+  --neutral-600: #7a7d9c;
+  --neutral-700: #3e395f;
+  --neutral-800: #0b0a33;
+
+  --primary-1: #4457ff;
+
+  --secondary-1: #596aff;
+  --secondary-2: #ff5f85;
+  --secondary-3: #ffc147;
+  --secondary-4: #e1e4ff;
+
+  --shadow-card-default: rgba(20, 20, 43, 0.04);
+  --shadow-card-short: rgba(20, 20, 43, 0.04);
+  --shadow-input: rgba(27, 25, 121, 0.05);
+  --shadow-illustration-bottom: rgba(32, 36, 138, 0.06);
+  --shadow-illustration-top: rgba(32, 36, 138, 0.09);
+  --shadow-long-icon: rgba(11, 10, 51, 0.07);
+
+  --bukku-accent-1: #21b6c6;
+  --bukku-accent-2: #004b6e;
+
+  --flowui-component-library-success-lighter: #ebfff6;
+  --flowui-component-library-success-darker: #006638;
+  --flowui-component-library-gray-900: #160042;
+  --flowui-component-library-gray-700: #282556;
+  --flowui-component-library-grey-300: #e4e6f1;
+  --flowui-component-library-gray-400: #b6b9ce;
+  --flowui-component-library-gray-500: #6b7094;
+  --flowui-component-library-primary-base: #642eff;
+  --flowui-component-library-success-base: #0ebc6e;
+  --flowui-component-library-gray-100: #f7f9fd;
+}

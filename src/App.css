@@ -1,0 +1,32 @@
+/* Sidebar.css */
+
+/* Default styles */
+.fixed {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    /* Collapse the sidebar */
+    .fixed {
+      width: 70px; /* Adjust as needed */
+    }
+  
+    /* Hide text in accordion headers */
+    .accordion-header-text {
+      display: none;
+    }
+  
+    /* Adjust padding for accordion headers */
+    .accordion-header {
+      padding: 0.75rem; /* Adjust as needed */
+    }
+  
+    /* Adjust padding for list items */
+    .list-item {
+      padding: 0.75rem; /* Adjust as needed */
+    }
+  }
+  

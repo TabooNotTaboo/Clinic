@@ -1,0 +1,25 @@
+.active-link {
+  background-color:#FEE2E2;
+  color: #ffffff;
+}
+
+.active-link:hover {
+  background-color: #758beaf6;
+}
+.max-w-xs {
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .max-w-xs {
+    width: initial; 
+    max-width: 300px; 
+  }
+}
+
+/* Active link style */
+.active-link {
+  background-color: #7b7df3fa; 
+  color: #fff; 
+}
